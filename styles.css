@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('img/img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  font-family: "Playpen Sans", cursive;
+  font-optical-sizing: auto;
+  
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.quote-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+#quoteText {
+  font-size: 1.2rem;
+  color: #555;
+  margin: 0;
+}
+
+#generateBtn {
+  font-family: "Playpen Sans", cursive;
+  font-optical-sizing: auto;
+  background-color: #F7EEDD;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#generateBtn:hover {
+  background-color: #ACE2E1;
+}
+#generateBtn, #copyBtn {
+  font-family: "Playpen Sans", cursive;
+  font-optical-sizing: auto;
+  background-color: #F7EEDD;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#generateBtn:hover, #copyBtn:hover {
+  background-color: #ACE2E1;
+}
+
+#tweetBtn {
+  color: #008DDA;
+}
